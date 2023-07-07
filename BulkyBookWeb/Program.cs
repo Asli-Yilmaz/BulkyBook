@@ -17,7 +17,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+//eðer authentication iþlemi yapmak istersen authorizationdan önce yapmalýsýn sonr ayaparsan hata verir
+//app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
