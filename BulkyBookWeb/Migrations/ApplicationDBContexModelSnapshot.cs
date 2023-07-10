@@ -30,7 +30,7 @@ namespace BulkyBookWeb.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("CreatedDateTime")
+                    b.Property<DateOnly>("CreatedDateTime")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<int>("DisplayOrder")
