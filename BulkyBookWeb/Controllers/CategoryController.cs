@@ -30,7 +30,7 @@ namespace BulkyBookWeb.Controllers
         public IActionResult Create(Category obj)
         {
             if (obj.Name == obj.DisplayOrder.ToString()) {
-                ModelState.AddModelError("name", "The display order cannot exactly match with the Name")
+                ModelState.AddModelError("name", "The display order cannot exactly match with the Name");
             }
             if (ModelState.IsValid) {
                 _db.Categories.Add(obj);
