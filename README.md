@@ -1,1 +1,1 @@
-# BulkyBook![Ekran Görüntüsü (670)](https://github.com/Asli-Yilmaz/BulkyBook/assets/75321471/3cbbf69c-0cd3-42d9-9ea0-2232a291df24)
+![Ekran Görüntüsü (670)](https://github.com/Asli-Yilmaz/BulkyBook/assets/75321471/60ebb052-b347-4594-b782-0becf4eca749)
